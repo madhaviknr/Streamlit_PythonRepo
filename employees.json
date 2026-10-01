@@ -1,0 +1,290 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "department": "HR",
+        "position": "HR Manager",
+        "date_of_joining": "2020-01-15",
+        "email": "alice.johnson@example.com",
+        "phone": "9876543210",
+        "salary": 60000,
+        "role": "Manager",
+        "leave_balance": 19,
+        "leave_requests": [
+            {
+                "start_date": "2026-09-30",
+                "end_date": "2026-09-30",
+                "reason": "sick",
+                "days_requested": 1,
+                "status": "Rejected"
+            },
+            {
+                "start_date": "2026-09-30",
+                "end_date": "2026-09-30",
+                "reason": "function",
+                "days_requested": 1,
+                "status": "Approved"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Bob Smith",
+        "department": "IT",
+        "position": "Software Engineer",
+        "date_of_joining": "2021-03-10",
+        "email": "bob.smith@example.com",
+        "phone": "9876543211",
+        "salary": 50000,
+        "role": "Employee",
+        "leave_balance": 18,
+        "leave_requests": []
+    },
+    {
+        "id": 3,
+        "name": "Carol White",
+        "department": "Finance",
+        "position": "Accountant",
+        "date_of_joining": "2019-07-22",
+        "email": "carol.white@example.com",
+        "phone": "9876543212",
+        "salary": 55000,
+        "role": "Employee",
+        "leave_balance": 13,
+        "leave_requests": [
+            {
+                "start_date": "2026-09-30",
+                "end_date": "2026-10-01",
+                "reason": "Planned Leave",
+                "status": "Approved",
+                "days_requested": 2
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "David Brown",
+        "department": "IT",
+        "position": "System Administrator",
+        "date_of_joining": "2018-11-05",
+        "email": "david.brown@example.com",
+        "phone": "9876543213",
+        "salary": 52000,
+        "role": "Employee",
+        "leave_balance": 19,
+        "leave_requests": [
+            {
+                "start_date": "2026-10-01",
+                "end_date": "2026-10-01",
+                "reason": "Sick",
+                "days_requested": 1,
+                "status": "Approved"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Emma Davis",
+        "department": "Marketing",
+        "position": "Marketing Specialist",
+        "date_of_joining": "2022-02-14",
+        "email": "emma.davis@example.com",
+        "phone": "9876543214",
+        "salary": 48000,
+        "role": "Employee",
+        "leave_balance": 15,
+        "leave_requests": [
+            {
+                "start_date": "2026-10-01",
+                "end_date": "2026-10-01",
+                "reason": "sick",
+                "days_requested": 1,
+                "status": "Approved"
+            },
+            {
+                "start_date": "2026-10-02",
+                "end_date": "2026-10-03",
+                "reason": "sick leave extension",
+                "days_requested": 2,
+                "status": "Approved"
+            },
+            {
+                "start_date": "2026-10-01",
+                "end_date": "2026-10-01",
+                "reason": "Sick",
+                "days_requested": 1,
+                "status": "Approved"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Frank Miller",
+        "department": "Sales",
+        "position": "Sales Executive",
+        "date_of_joining": "2020-09-30",
+        "email": "frank.miller@example.com",
+        "phone": "9876543215",
+        "salary": 47000,
+        "role": "Employee",
+        "leave_balance": 16,
+        "leave_requests": [
+            {
+                "start_date": "2026-10-01",
+                "end_date": "2026-10-01",
+                "reason": "Planned",
+                "days_requested": 1,
+                "status": "Approved"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Grace Wilson",
+        "department": "Finance",
+        "position": "Finance Manager",
+        "date_of_joining": "2017-06-18",
+        "email": "grace.wilson@example.com",
+        "phone": "9876543216",
+        "salary": 65000,
+        "role": "Manager",
+        "leave_balance": 20,
+        "leave_requests": []
+    },
+    {
+        "id": 8,
+        "name": "Henry Taylor",
+        "department": "IT",
+        "position": "Data Analyst",
+        "date_of_joining": "2021-12-01",
+        "email": "henry.taylor@example.com",
+        "phone": "9876543217",
+        "salary": 51000,
+        "role": "Employee",
+        "leave_balance": 15,
+        "leave_requests": [
+            {
+                "start_date": "2026-10-01",
+                "end_date": "2026-10-01",
+                "reason": "sick",
+                "days_requested": 1,
+                "status": "Approved"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Isabella Moore",
+        "department": "HR",
+        "position": "Recruiter",
+        "date_of_joining": "2019-04-25",
+        "email": "isabella.moore@example.com",
+        "phone": "9876543218",
+        "salary": 46000,
+        "role": "Employee",
+        "leave_balance": 17,
+        "leave_requests": [
+            {
+                "start_date": "2026-10-01",
+                "end_date": "2026-10-01",
+                "reason": "Sick",
+                "days_requested": 1,
+                "status": "Approved"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Jack Anderson",
+        "department": "Sales",
+        "position": "Sales Manager",
+        "date_of_joining": "2016-08-12",
+        "email": "jack.anderson@example.com",
+        "phone": "9876543219",
+        "salary": 70000,
+        "role": "Manager",
+        "leave_balance": 20,
+        "leave_requests": []
+    },
+    {
+        "id": 11,
+        "name": "Garima G",
+        "department": "Testing",
+        "position": "Test Engineer",
+        "date_of_joining": "2025-01-01",
+        "email": "Garima@test.com",
+        "phone": "9876543579",
+        "salary": 2000000.0,
+        "role": "Employee",
+        "leave_balance": 19,
+        "leave_requests": [
+            {
+                "start_date": "2026-10-01",
+                "end_date": "2026-10-01",
+                "reason": "planned",
+                "days_requested": 1,
+                "status": "Approved"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Gopi",
+        "department": "Dev",
+        "position": "Architect",
+        "date_of_joining": "2024-10-23",
+        "email": "",
+        "phone": "",
+        "salary": 6000000.0,
+        "role": "Employee",
+        "leave_balance": 19,
+        "leave_requests": [
+            {
+                "start_date": "2026-10-01",
+                "end_date": "2026-10-01",
+                "reason": "Sick",
+                "days_requested": 1,
+                "status": "Approved"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Pankaj",
+        "department": "HR",
+        "position": "Trainee",
+        "date_of_joining": "2026-10-01",
+        "email": "Pankaj@HR.com",
+        "phone": "76853456567",
+        "salary": 500000.0,
+        "role": "Employee",
+        "leave_balance": 20,
+        "leave_requests": []
+    },
+    {
+        "id": 14,
+        "name": "Suman",
+        "department": "HR",
+        "position": "Trainee",
+        "date_of_joining": "2026-10-01",
+        "email": "Suman@HR.com",
+        "phone": "987654321",
+        "salary": 50000.0,
+        "role": "Employee",
+        "leave_balance": 20,
+        "leave_requests": []
+    },
+    {
+        "id": 15,
+        "name": "Panda",
+        "department": "Testing",
+        "position": "SDET",
+        "date_of_joining": "2026-10-01",
+        "email": "Panda@Test.com",
+        "phone": "98765432",
+        "salary": 100000.0,
+        "role": "Employee",
+        "leave_balance": 20,
+        "leave_requests": []
+    }
+]
